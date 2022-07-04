@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 
 @SpringBootApplication
 @RestController
-public class StreamingApplication  extends SpringBootServletInitializer{
+public class StreamingApplication{
 
 	@Autowired
 	private StreamingService service;
